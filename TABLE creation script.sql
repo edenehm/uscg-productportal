@@ -215,8 +215,6 @@ CHANGE  minimum_order_quantity reorder_point int NOT NULL;
 #DROP FOREIGN KEY recruiting_office_ibfk_1,
 #DROP FOREIGN KEY recruiting_office_ibfk_4;
 
-
-
 #DROP TABLE event, inventory, orders, product_category, product_event, products, recruiter_event, recruiters, recruiting_office, recruiting_region, vendor; 
 
 #SET FOREIGN_KEY_CHECKS=0; 
