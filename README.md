@@ -41,9 +41,9 @@ A web app that end users can utilize to track the ordering, inventory, and distr
 ### In Repository:
 
 Relational and ERD diagrams
-SQL scripts*   
+SQL scripts  
 ...
-* Note: Due to personally identifiable data, some data, scripts, and files have been intentionally omitted.
+Note: Due to personally identifiable data, some data, scripts, and files have been intentionally omitted.
 
 ## Results: 
 ...
