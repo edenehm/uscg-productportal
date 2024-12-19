@@ -38,6 +38,12 @@ The products in a recruiting office’s inventory are used for events that are p
 A web app that end users can utilize to track the ordering, inventory, and distribution of promotional items in the Coast Guard’s recruiting offices. 
 
 
+## Skills Used: 
+Databases
+SQL
+PHP
+UI Design 
+
 ### In Repository:
 
 Relational and ERD diagrams
@@ -48,10 +54,3 @@ Note: Due to personally identifiable data, some data, scripts, and files have be
 ## Results: 
 ...
 
-
-## Business Impact: 
-...
-
-
-### Next Steps: 
-...
