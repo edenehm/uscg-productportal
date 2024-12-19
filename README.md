@@ -8,21 +8,22 @@ The Coast Guard Recruiting Command (CGRC) is responsible for recruiting new indi
 
 
 ## Client Needs: 
-Promotional items are maintained as inventory at each individual Coast Guard Recruiting Office and given out to potential recruits at events.  Maintaining enough inventory at each office has been a challenge.  It is imperative that each recruiting office has enough of each promotional material needed for their events, yet promotional materials are frequently updated and trends change so any surplus needs to be minimized.  The CGRC, which oversees recruiting offices, needs a way to monitor promotional item inventory at, orders from, and distribution to each individual Coast Guard Recruiting Office.  The CGRC seeks a database that contains all data for the promotional items and a user-friendly application that allows them to use this data to track the ordering, inventory, and distribution of promotional items in the Coast Guard’s recruiting offices. 
+Promotional items are maintained as inventory at each individual Coast Guard Recruiting Office and given out to potential recruits at events.  Maintaining enough inventory at each office has been a challenge due to disorganized inventory, inefficient ordering practices, insufficient planning for events, and lack of product diversity.  It is imperative that each recruiting office has enough of each promotional material needed for their events, yet promotional materials are frequently updated and trends change so any surplus needs to be minimized.  The CGRC, which oversees recruiting offices, needs a way to monitor promotional item inventory at, orders from, and distribution to each individual Coast Guard Recruiting Office.  The CGRC seeks a database that contains all data for the promotional items and a user-friendly application that allows them to use this data to track the ordering, inventory, and distribution of promotional items in the Coast Guard’s recruiting offices. 
 
 
 ## Existing Data: 
 The following data exists and is organized by the CGRC, but will need to be compiled and organized into tables:
-●	Recruiting Regions - Geographical areas
-●	Recruiting Offices - Name, address, city, state, zip, manager, region
-●	Recruiter - First name, last name, office, manager status
-●	Product Categories - Category name
-●	Products - Product name, description, vendor, unit cost, items per unit, photo
-●	Inventory - Quantity in stock, minimum order quantity
-●	Vendors - Name, address, city, state, zip, phone, website
-●	Orders - Date ordered, date paid, quantity ordered, estimated delivery date
-●	Events - Date, location, location address, office, recruiter(s), product(s), quantity of product(s) used
+Recruiting Regions - Geographical areas
+Recruiting Offices - Name, address, city, state, zip, manager, region
+Recruiter - First name, last name, office, manager status
+Product Categories - Category name
+Products - Product name, description, vendor, unit cost, items per unit, photo
+Inventory - Quantity in stock, minimum order quantity
+Vendors - Name, address, city, state, zip, phone, website
+Orders - Date ordered, date paid, quantity ordered, estimated delivery date
+Events - Date, location, location address, office, recruiter(s), product(s), quantity of product(s) used
 
+<img src="diagram.png" width="700" height="500">
 
 ## Business Rules: 
 The Coast Guard Recruiting command is organized into different geographical recruiting regions.  Within each of these regions, there are many recruiting offices, where each office is part of one and only one recruiting region.  Each recruiting office has many Coast Guard recruiters working in it, and each recruiter works for one and only one recruiting office.  
@@ -35,22 +36,40 @@ The products in a recruiting office’s inventory are used for events that are p
 
 
 ## Deliverable: 
-A web app that end users can utilize to track the ordering, inventory, and distribution of promotional items in the Coast Guard’s recruiting offices. 
+A database and front-end web app that end users can utilize to organize, view, update, and track the ordering, inventory, and distribution of promotional items in the Coast Guard’s recruiting offices.  Below are three pages and features of the web app.
+
+Secure Login:
+
+<img src="securelogin.png" width="600" height="400">
+
+Update Inventory Form:
+
+<img src="updateinv.png" width="600" height="400">
+
+Product Use Visual:
+
+<img src="productuse.png" width="600" height="400">
 
 
 ## Skills Used: 
-Databases
-SQL
-PHP
-UI Design 
+Databases - ERD with MySQL hosted on private server
 
-### In Repository:
+SQL - building, querying, viewing DB
+
+PHP - accessing DB from front-end
+
+UI Design - implementing value-add features for users
+
+Security - maintaining security of govt data
+
+
+## In Repository:
 
 Relational and ERD diagrams
-SQL scripts  
-...
-Note: Due to personally identifiable data, some data, scripts, and files have been intentionally omitted.
 
-## Results: 
-...
+SQL scripts  
+
+Three web app views
+
+Note: Due to personally identifiable data, some data, scripts, and files have been intentionally omitted.
 
